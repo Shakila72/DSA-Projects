@@ -1,0 +1,68 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "files.autoSave": "afterDelay",
+    "explorer.openEditors.visible": 0,
+    "files.autoSaveDelay": 15000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "'Victor Mono', FiraCode, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.fontSize": 16,
+    "breadcrumbs.enabled": true,
+    "blade.format.enable": true, // if you would like to enable blade format
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
+        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
+        // Hide everything in /vendor, except "laravel" folder.
+        "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
+        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+        "storage/framework/views": true
+    },
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorStyle": "line",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "auto"
+        }
+    },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "workbench.colorCustomizations": {
+        "window.activeBorder": "#5fb3b3",
+        "window.inactiveBorder": "#1b2b34",
+    },
+    "phpstormFormatter.ideBinPath": "C:\\Program Files\\JetBrains\\PhpStorm 2019.1.2\\bin",
+    "phpstormFormatter.styleGuidePath": "C:\\Users\\MuhammadShafeeq\\PHPStormCodeStyle.xml",
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+}
